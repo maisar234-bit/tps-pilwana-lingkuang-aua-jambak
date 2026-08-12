@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b6b62">
+<title>TPS PILWANA 2026 | Lingkuang Aua Jambak</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#f3f7f6;color:#173b39;font-family:Arial,Helvetica,sans-serif}
+.container{max-width:1050px;margin:auto;padding:18px}
+.hero{background:linear-gradient(135deg,#075e56,#138276);color:#fff;border-radius:24px;padding:28px 24px;box-shadow:0 12px 35px #123b3718}
+.small{font-size:12px;font-weight:800;letter-spacing:2px;opacity:.85}
+h1{font-size:clamp(27px,5vw,46px);line-height:1.05;margin:10px 0}
+.hero p{max-width:720px;line-height:1.6;margin:0;opacity:.92}
+.share{margin-top:18px;border:0;border-radius:12px;padding:12px 16px;font-weight:800;color:#075e56;background:#fff;cursor:pointer}
+.section{margin-top:22px}
+.head{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:12px}
+h2{margin:0;font-size:21px}
+.total{font-weight:800;background:#dff5f1;color:#075e56;padding:8px 12px;border-radius:99px;font-size:13px}
+.search{width:100%;padding:14px 16px;border:1px solid #d7e5e2;border-radius:14px;font-size:16px;outline:none;background:#fff;margin-bottom:14px}
+.grid{display:grid;grid-template-columns:repeat(5,1fr);gap:13px}
+.tps{position:relative;text-decoration:none;color:#173b39;background:#fff;border:1px solid #d9e6e3;border-radius:20px;padding:18px;min-height:285px;box-shadow:0 8px 24px #123b3710;overflow:hidden;transition:.18s}
+.tps:before{content:"";position:absolute;top:0;left:0;right:0;height:6px;background:#0b8b7c}
+.tps:hover{transform:translateY(-4px);box-shadow:0 14px 30px #123b3720}
+.number{font-size:23px;font-weight:900;color:#08756a}
+.area{font-size:13px;color:#667a78;min-height:38px;margin-top:6px;line-height:1.4}
+.line{height:1px;background:#e5edeb;margin:12px 0}
+.count{font-size:40px;font-weight:900;color:#164f63;line-height:1}
+.pemilih{font-size:10px;font-weight:800;letter-spacing:1.5px;color:#83908f;margin-top:4px}
+.gender{display:flex;gap:6px;margin-top:14px}
+.gender span{font-size:12px;background:#f1f6f5;padding:7px 8px;border-radius:8px;font-weight:700;color:#526563}
+.open{position:absolute;bottom:16px;left:18px;right:18px;background:#e8f6f3;color:#08756a;border-radius:10px;padding:9px;text-align:center;font-size:12px;font-weight:800}
+.chart{background:#fff;border:1px solid #d9e6e3;border-radius:18px;padding:18px}
+.bar{margin:12px 0}
+.bar>div{display:flex;justify-content:space-between;font-size:13px;margin-bottom:6px}
+.bar i{display:block;height:11px;background:#e9f0ef;border-radius:99px;overflow:hidden}
+.bar em{display:block;height:100%;background:#0b8b7c;border-radius:99px}
+.note{background:#fff8e5;border:1px solid #f0dfae;border-radius:14px;padding:13px 15px;font-size:12px;line-height:1.55;color:#66531b;margin-top:18px}
+footer{text-align:center;color:#80908e;font-size:12px;padding:25px 0 8px}
+.empty{display:none;text-align:center;padding:25px;color:#778785}
+@media(max-width:900px){.grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:650px){.container{padding:12px}.hero{border-radius:18px;padding:24px 18px}.grid{grid-template-columns:repeat(2,1fr);gap:10px}.tps{min-height:265px;padding:15px}.count{font-size:34px}.head{align-items:flex-start;flex-direction:column}}
+@media(max-width:380px){.grid{grid-template-columns:1fr}}
+@media print{.hero,.search,.open{display:none}.grid{grid-template-columns:repeat(5,1fr)}.tps{box-shadow:none}}
+</style>
+</head>
+<body>
+<div class="container">
+<header class="hero">
+  <div class="small">DAFTAR PEMILIH SEMENTARA • 2026</div>
+  <h1>PILWANA<br>Nagari Lingkuang Aua Jambak</h1>
+  <p>Pilih nomor TPS di bawah ini untuk langsung membuka daftar pemilih sesuai TPS. Tampilan dibuat sederhana agar mudah digunakan melalui HP dan mudah dibagikan.</p>
+  <button class="share" onclick="sharePage()">📤 Bagikan halaman ini</button>
+</header>
+
+<section class="section">
+  <div class="head"><h2>Bagan Jumlah Pemilih</h2><div class="total">5 TPS • 2.385</div></div>
+  <div class="chart">
+<div class="bar">
+  <div><b>TPS 01</b><span>415 pemilih</span></div>
+  <i><em style="width:69.3%"></em></i>
+</div>
+
+<div class="bar">
+  <div><b>TPS 02</b><span>486 pemilih</span></div>
+  <i><em style="width:81.1%"></em></i>
+</div>
+
+<div class="bar">
+  <div><b>TPS 03</b><span>377 pemilih</span></div>
+  <i><em style="width:62.9%"></em></i>
+</div>
+
+<div class="bar">
+  <div><b>TPS 04</b><span>508 pemilih</span></div>
+  <i><em style="width:84.8%"></em></i>
+</div>
+
+<div class="bar">
+  <div><b>TPS 05</b><span>599 pemilih</span></div>
+  <i><em style="width:100.0%"></em></i>
+</div></div>
+</section>
+
+<section class="section">
+  <div class="head"><h2>Daftar TPS</h2></div>
+  <input id="search" class="search" placeholder="🔎 Cari TPS atau wilayah..." oninput="filterTPS()">
+  <div id="grid" class="grid">
+<a class="tps" href="tps-01.pdf" target="_blank" data-search="tps 01 Jalur 10 Timur">
+  <div class="number">TPS 01</div>
+  <div class="area">Jalur 10 Timur</div>
+  <div class="line"></div>
+  <div class="count">415</div>
+  <div class="pemilih">PEMILIH</div>
+  <div class="gender"><span>♂ 196</span><span>♀ 219</span></div>
+  <div class="open">Buka daftar →</div>
+</a>
+
+<a class="tps" href="tps-02.pdf" target="_blank" data-search="tps 02 Jalur 9 Timur">
+  <div class="number">TPS 02</div>
+  <div class="area">Jalur 9 Timur</div>
+  <div class="line"></div>
+  <div class="count">486</div>
+  <div class="pemilih">PEMILIH</div>
+  <div class="gender"><span>♂ 240</span><span>♀ 246</span></div>
+  <div class="open">Buka daftar →</div>
+</a>
+
+<a class="tps" href="tps-03.pdf" target="_blank" data-search="tps 03 Jalur 8 Timur">
+  <div class="number">TPS 03</div>
+  <div class="area">Jalur 8 Timur</div>
+  <div class="line"></div>
+  <div class="count">377</div>
+  <div class="pemilih">PEMILIH</div>
+  <div class="gender"><span>♂ 182</span><span>♀ 195</span></div>
+  <div class="open">Buka daftar →</div>
+</a>
+
+<a class="tps" href="tps-04.pdf" target="_blank" data-search="tps 04 Jalur 7 Timur">
+  <div class="number">TPS 04</div>
+  <div class="area">Jalur 7 Timur</div>
+  <div class="line"></div>
+  <div class="count">508</div>
+  <div class="pemilih">PEMILIH</div>
+  <div class="gender"><span>♂ 251</span><span>♀ 253</span></div>
+  <div class="open">Buka daftar →</div>
+</a>
+
+<a class="tps" href="tps-05.pdf" target="_blank" data-search="tps 05 Jalur 7, 8, 9 Barat">
+  <div class="number">TPS 05</div>
+  <div class="area">Jalur 7, 8, 9 Barat</div>
+  <div class="line"></div>
+  <div class="count">599</div>
+  <div class="pemilih">PEMILIH</div>
+  <div class="gender"><span>♂ 289</span><span>♀ 310</span></div>
+  <div class="open">Buka daftar →</div>
+</a></div>
+  <div id="empty" class="empty">TPS tidak ditemukan.</div>
+</section>
+
+<div class="note"><b>Catatan:</b> data ringkas mengikuti dokumen DPS PILWANA 2026 yang diberikan. TPS 04 ditampilkan dengan jumlah L+P 508 sesuai dokumen sumber.</div>
+<footer>Pasaman Barat • Nagari Lingkuang Aua Jambak • PILWANA 2026</footer>
+</div>
+<script>
+function filterTPS(){
+ const q=document.getElementById('search').value.toLowerCase().trim();
+ let n=0;
+ document.querySelectorAll('.tps').forEach(x=>{
+   const ok=x.dataset.search.includes(q);
+   x.style.display=ok?'block':'none'; if(ok)n++;
+ });
+ document.getElementById('empty').style.display=n?'none':'block';
+}
+async function sharePage(){
+ const d={title:document.title,text:'TPS PILWANA 2026 — Nagari Lingkuang Aua Jambak',url:location.href};
+ if(navigator.share){try{await navigator.share(d)}catch(e){}}
+ else{try{await navigator.clipboard.writeText(location.href);alert('Tautan berhasil disalin.')}catch(e){prompt('Salin tautan:',location.href)}}
+}
+</script>
+</body>
+</html>
